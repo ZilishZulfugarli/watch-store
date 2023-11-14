@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 50%;
+        }
+    }
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 116px;
+
+    .photos {
+        display: flex;
+        flex-direction: row;
+        flex-basis: 50%;
+        gap: 30px;
+
+        .all-photos {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 45.5px;
+                border: 50%;
+            }
+        }
+
+        .selected-photo {
+            width: 100%;
+
+            img {
+                width: 100%;
+                border-radius: 0;
+            }
+        }
+    }
+
+    .watch-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-basis: 30%;
+
+        .product-name {
+            color: #000;
+            font-family: Josefin Sans;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .product-detail {
+            color: #000;
+            font-family: Red Rose;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+        .stars {
+            display: flex;
+            flex-direction: row;
+            gap: 18px;
+
+        }
+
+        .price {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .pr {
+                color: #000;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .amount {
+                color: #000;
+                font-family: Montserrat;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+
+        }
+
+        .buy {
+            display: flex;
+            outline: 0;
+            border: 0;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+
+            .texts {
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                padding: 15px;
+                align-items: center;
+
+                .fa-basket-shopping{
+                    color: #FFF;
+                }
+
+                &-text {
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+
+        .wishlist{
+            display: flex;
+            outline: 0;
+            border: black 1px solid;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+
+
+
+            .texts {
+                display: flex;
+                flex-direction: row;
+                gap: 16px;
+                padding: 15px;
+                align-items: center;
+
+                .fa-basket-shopping{
+                    color: #FFF;
+                }
+
+                &-text {
+                    color: black;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

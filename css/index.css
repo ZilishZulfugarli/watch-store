@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+}
+.header .logo {
+  display: flex;
+  justify-content: center;
+}
+.header .logo img {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 116px;
+}
+.container .photos {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 50%;
+  gap: 30px;
+}
+.container .photos .all-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.container .photos .all-photos img {
+  width: 45.5px;
+  border: 50%;
+}
+.container .photos .selected-photo {
+  width: 100%;
+}
+.container .photos .selected-photo img {
+  width: 100%;
+  border-radius: 0;
+}
+.container .watch-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 30%;
+}
+.container .watch-details .product-name {
+  color: #000;
+  font-family: Josefin Sans;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .watch-details .product-detail {
+  color: #000;
+  font-family: Red Rose;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.container .watch-details .stars {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.container .watch-details .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .watch-details .price .pr {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .watch-details .price .amount {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .watch-details .buy {
+  display: flex;
+  outline: 0;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.container .watch-details .buy .texts {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 15px;
+  align-items: center;
+}
+.container .watch-details .buy .texts .fa-basket-shopping {
+  color: #FFF;
+}
+.container .watch-details .buy .texts-text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container .watch-details .wishlist {
+  display: flex;
+  outline: 0;
+  border: black 1px solid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.container .watch-details .wishlist .texts {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 15px;
+  align-items: center;
+}
+.container .watch-details .wishlist .texts .fa-basket-shopping {
+  color: #FFF;
+}
+.container .watch-details .wishlist .texts-text {
+  color: black;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=index.css.map */
